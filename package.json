@@ -18,8 +18,8 @@
   "dependencies": {
     "bs58check": "2.1.2",
     "create-hash": "1.2.0",
-    "elliptic": "6.5.4",
-    "secp256k1": "3.8.0",
+    "elliptic": ">=6.6.1",
+    "secp256k1": ">=3.8.1-lineaje-01",
     "tweetnacl": "1.0.3",
     "varuint-bitcoin": "1.1.2"
   },
@@ -44,5 +44,15 @@
     "dev": "babel --watch src/ -d lib/",
     "clean": "rm -rf ./lib && mkdir lib",
     "test": "mocha"
+  },
+  "overrides": {
+    "secp256k1": ">=3.8.1-lineaje-01",
+    "elliptic": ">=6.6.1",
+    "sha.js": ">=2.4.12"
+  },
+  "resolutions": {
+    "secp256k1": ">=3.8.1-lineaje-01",
+    "elliptic": ">=6.6.1",
+    "sha.js": ">=2.4.12"
   }
 }
