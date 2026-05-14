@@ -1,11 +1,20 @@
 {
   "name": "zencashjs",
-  "version": "1.2.7",
+  "version": "1.2.7-lineaje-01",
   "description": "Dead easy to use Horizen JavaScript based library",
   "main": "./lib/index.js",
-  "repository": "https://github.com/HorizenOfficial/zencashjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/HorizenOfficial-zencashjs"
+  },
   "author": "Kendrick Tan <kendricktan0814@gmail.com>",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "dependencies": {
     "bs58check": "2.1.2",
     "create-hash": "1.2.0",
